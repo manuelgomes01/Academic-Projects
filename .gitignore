@@ -1,3 +1,27 @@
+# ----------------------------
+# OS / general
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ----------------------------
+# Editors / IDEs
+# ----------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ----------------------------
+# C / C++ (existing rules + extras)
+# ----------------------------
 # Prerequisites
 *.d
 
@@ -53,3 +77,52 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# ----------------------------
+# Node / JavaScript / TypeScript
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+out/
+coverage/
+
+# ----------------------------
+# Java (Maven/Gradle)
+# ----------------------------
+*.class
+target/
+.gradle/
+
+# Note: 'build/' is already ignored above for JS and also applies to Gradle.
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Secrets
+# ----------------------------
+.env
+.env.*
+*.pem
+*.key
